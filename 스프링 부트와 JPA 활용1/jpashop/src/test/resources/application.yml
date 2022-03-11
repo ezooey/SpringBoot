@@ -1,0 +1,21 @@
+spring:
+#  datasource:
+#    url: jdbc:h2:mem:test
+#   메모리 모드로 테스트 가능하게끔 함
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+# 별도의 설정이 없으면 스프링부트는 기본적으로 메모리 모드로 테스트를 실행하게끔 되어 있다.
+
+loggin:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
